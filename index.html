@@ -10,24 +10,25 @@
 <body>
     <div class="container">
         <h1>Color Palette Manager</h1>
+        <!-- Input field for palette name -->
         <input type="text" id="paletteName" placeholder="Palette Name">
 
-        <div class="color-inputs">
-            <label>Color 1: <input type="color" id="color1" value="#e9fafe"></label>
-            <label>Color 2: <input type="color" id="color2" value="#e9fafe"></label>
-            <label>Color 3: <input type="color" id="color3" value="#e9fafe"></label>
-        </div>
-
-        <button id="savePalette">Save Palette</button>
-
-        <div class="palette-list">
-            <h2>Saved Palettes</h2>
-            <div id="palettesContainer"></div>
-        </div>
+    <div class="color-inputs">
+        <!-- Color selection inputs -->
+        <label>Color 1: <input type="color" id="color1" value="#e9fafe"></label>
+        <label>Color 2: <input type="color" id="color2" value="#e9fafe"></label>
+        <label>Color 3: <input type="color" id="color3" value="#e9fafe"></label>
     </div>
-    
 
+    <!-- Button to save the palette -->
+    <button id="savePalette">Save Palette</button>
 
-    <script src="script.js"></script>
-</body>
-</html>
+    <div class="palette-list">
+        <h2>Saved Palettes</h2>
+        <!-- Container for displaying saved palettes -->
+        <div id="palettesContainer"></div>
+    </div>
+</div>
+
+<!-- External JavaScript file for functionality -->
+<script src="script.js"></script>
