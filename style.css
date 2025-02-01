@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+:root {
+    --primary-color: #82c6c9;
+    --secondary-color: #f1faee;
+    --text-color: #457b9d;
+    --button-color: #e63946;
+    --hover-color: #ffb4a2;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 32px;
+}
+
+input[type="text"], input[type="color"] {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    margin: 5px;
+}
+
+button {
+    background: var(--button-color);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 13px;
+    transition: 0.3s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type="color"] {
+  width: 40px;  
+  height: 30px;
+  border: none; 
+  border-radius: 30px;
+  padding: 1px;
+  background-color: aliceblue;
+  
+}
+
+button:hover {
+    background: var(--hover-color);
+}
+
+.palette-list {
+    margin-top: 20px;
+}
+
+.palette {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ddd;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+

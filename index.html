@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Palette Manager</h1>
+        <input type="text" id="paletteName" placeholder="Palette Name">
+
+        <div class="color-inputs">
+            <label>Color 1: <input type="color" id="color1" value="#e9fafe"></label>
+            <label>Color 2: <input type="color" id="color2" value="#e9fafe"></label>
+            <label>Color 3: <input type="color" id="color3" value="#e9fafe"></label>
+        </div>
+
+        <button id="savePalette">Save Palette</button>
+
+        <div class="palette-list">
+            <h2>Saved Palettes</h2>
+            <div id="palettesContainer"></div>
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
