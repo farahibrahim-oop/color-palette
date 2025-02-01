@@ -21,3 +21,5 @@ Text Color: #457b9d
 Button Color: #e63946
 Hover Color: #ffb4a2
 
+-*AI Tool used*:
+ChatGPT assisted me in creating the documentation for my code, making it clearer and more structured.
